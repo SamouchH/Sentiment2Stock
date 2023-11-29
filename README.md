@@ -85,26 +85,26 @@ Navigate through the application pages using the sidebar to access different fun
 Here are some screenshots that highlight the key features of the Streamlit application:
 
 #### Home Page
-![Home Page](images/Home.png)
+![Home Page](./images/Home.png)
 
 #### Sentiment Analysis Page
-![Sentiment Analysis](images/Analysis.png)
+![Sentiment Analysis](./images/Analysis.png)
 
 #### Visualization Page
-![Visualization](images/Visualization.png)
+![Visualization](./images/Visualization.png)
 
 #### Prediction Page
-![Prediction](images/Prediction.png)
+![Prediction](./images/Prediction.png)
 
 #### Future Work Page
-![Future Work](images/Future_work.png)
+![Future Work](./images/Future_work.png)
 
 
 ### Navigation
 
 Use the sidebar to navigate to different pages of the application and access various features.
 
-![Navigation Sidebar](images/Navigation.png)
+![Navigation Sidebar](./images/Navigation.png)
 
 We encourage users to explore different pages and interact with the functionalities provided.
 
@@ -129,9 +129,9 @@ We plan to investigate reinforcement learning techniques for better predictive m
 
 Below is a sneak peek of what we are working on:
 
-![Real-time Stock Prices](images/Capture_1.png)
+![Real-time Stock Prices](./images/Capture_1.png)
 
-![Real-time Stock Prices](images/Capture_2.png)
+![Real-time Stock Prices](./images/Capture_2.png)
 
 *Screenshot of the planned real-time stock price visualization feature.*
 
