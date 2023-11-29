@@ -1,0 +1,454 @@
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Using device: cuda:0
+Epoch 0: 100%|████████████████████████| 4040/4040 [1:13:01<00:00,  1.08s/it, loss=0.0269]
+Epoch 1: 100%|████████████████████████| 4040/4040 [1:13:16<00:00,  1.09s/it, loss=0.0608]
+Epoch 2: 100%|███████████████████████| 4040/4040 [1:13:00<00:00,  1.08s/it, loss=0.00595]
+Epoch 3: 100%|████████████████████████| 4040/4040 [1:12:58<00:00,  1.08s/it, loss=0.0383]
+Epoch 4: 100%|██████████████████████| 4040/4040 [1:12:55<00:00,  1.08s/it, loss=0.000887]
+Epoch 5: 100%|██████████████████████| 4040/4040 [1:12:56<00:00,  1.08s/it, loss=0.000391]
+Epoch 6: 100%|████████████████████████| 4040/4040 [1:12:50<00:00,  1.08s/it, loss=0.0228]
+Epoch 7: 100%|██████████████████████| 4040/4040 [1:12:50<00:00,  1.08s/it, loss=0.000134]
+Epoch 8: 100%|███████████████████████| 4040/4040 [1:12:49<00:00,  1.08s/it, loss=8.03e-5]
+Epoch 9: 100%|███████████████████████| 4040/4040 [1:12:48<00:00,  1.08s/it, loss=6.91e-5]
+100%|████████████████████████████████████████████████| 1010/1010 [14:46<00:00,  1.14it/s]
+
+------
+
+
+Microsoft Windows [version 10.0.22621.2715]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1>c:/Users/samou/OneDrive/Documents/GitHub/Sentiment_analysis/Sentiment_analysis-1/.venv/Scripts/activate.bat
+
+(.venv) C:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1>c:/Users/samou/OneDrive/Documents/GitHub/Sentiment_analysis/Sentiment_analysis-1/.venv/Scripts/python.exe c:/Users/samou/OneDrive/Documents/GitHub/Sentiment_analysis/Sentiment_analysis-1/model.py
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Using device: cuda:0
+Epoch 0:  41%|█████████▍             | 1661/4040 [1:06:52<1:35:46,  2.42s/it, loss=0.306]
+Traceback (most recent call last):
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\model.py", line 206, in <module>
+    train_model(model, train_data_loader, optimizer, scheduler, device)
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\model.py", line 124, in train_model
+    loop.set_postfix(loss=loss.item())
+                          ^^^^^^^^^^^
+KeyboardInterrupt
+^C
+(.venv) C:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1>c:/Users/samou/OneDrive/Documents/GitHub/Sentiment_analysis/Sentiment_analysis-1/.venv/Scripts/python.exe c:/Users/samou/OneDrive/Documents/GitHub/Sentiment_analysis/Sentiment_analysis-1/model.py
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Using device: cuda:0
+Epoch 0:   2%|▍                          | 71/4040 [04:30<4:11:51,  3.81s/it, loss=0.891]
+Traceback (most recent call last):
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\model.py", line 206, in <module>
+    train_model(model, train_data_loader, optimizer, scheduler, device)
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\model.py", line 124, in train_model
+    loop.set_postfix(loss=loss.item())
+                          ^^^^^^^^^^^
+KeyboardInterrupt
+^C
+(.venv) C:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1>c:/Users/samou/OneDrive/Documents/GitHub/Sentiment_analysis/Sentiment_analysis-1/.venv/Scripts/python.exe c:/Users/samou/OneDrive/Documents/GitHub/Sentiment_analysis/Sentiment_analysis-1/model.py
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Using device: cuda:0
+STAGE:2023-11-17 12:49:52 24272:7984 ..\third_party\kineto\libkineto\src\ActivityProfilerController.cpp:312] Completed Stage: Warm Up
+Epoch 0:   4%|▉                         | 146/4040 [07:31<3:20:51,  3.09s/it, loss=0.504] 
+STAGE:2023-11-17 12:57:30 24272:7984 ..\third_party\kineto\libkineto\src\ActivityProfilerController.cpp:318] Completed Stage: Collection
+STAGE:2023-11-17 12:57:32 24272:7984 ..\third_party\kineto\libkineto\src\ActivityProfilerController.cpp:322] Completed Stage: Post Processing
+Traceback (most recent call last):
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\model.py", line 106, in train_model
+
+
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl      
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 1564, in forward  
+    outputs = self.bert(
+              ^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl      
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 1013, in forward  
+    encoder_outputs = self.encoder(
+                      ^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl      
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 607, in forward   
+    layer_outputs = layer_module(
+                    ^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl      
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 497, in forward   
+    self_attention_outputs = self.attention(
+                             ^^^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl      
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 427, in forward   
+    self_outputs = self.self(
+                   ^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl      
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 286, in forward   
+    mixed_query_layer = self.query(hidden_states)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl      
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\nn\modules\linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\model.py", line 213, in <module>
+
+    ^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\model.py", line 91, in train_model
+    def train_model(model, data_loader, optimizer, scheduler, device):
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\profiler\profiler.py", line 609, in __exit__
+    self.stop()
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\profiler\profiler.py", line 623, in stop
+    self._transit_action(self.current_action, None)
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\profiler\profiler.py", line 651, in _transit_action
+    action()
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\profiler\profiler.py", line 160, in stop_trace
+    self.profiler.__exit__(None, None, None)
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\autograd\profiler.py", line 333, in __exit__
+    self.function_events._build_tree()
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\autograd\profiler_util.py", line 41, in _build_tree
+    self._populate_cpu_children()
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\autograd\profiler_util.py", line 121, in _populate_cpu_children
+    while len(current_events) > 0:
+          ^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+^C
+(.venv) C:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1>    with profile(activities=[ProfilerActivity.CPU, ProfilerActivity.CUDA], record_shapes=True) as prof:
+'with' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+(.venv) C:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1>c:/Users/samou/OneDrive/Documents/GitHub/Sentiment_analysis/Sentiment_analysis-1/.venv/Scripts/python.exe c:/Users/samou/OneDrive/Documents/GitHub/Sentiment_analysis/Sentiment_analysis-1/model.py
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Using device: cuda:0
+Epoch 0:  30%|████████                   | 1206/4040 [22:34<53:02,  1.12s/it, loss=0.387]
+Traceback (most recent call last):
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\model.py", line 223, in <module>
+    optimizer = AdamW(model.parameters(), lr=2e-5)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\model.py", line 126, in train_model
+    scaler.step(optimizer)
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\cuda\amp\grad_scaler.py", line 416, in step
+    retval = self._maybe_opt_step(optimizer, optimizer_state, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\cuda\amp\grad_scaler.py", line 314, in _maybe_opt_step       
+    if not sum(v.item() for v in optimizer_state["found_inf_per_device"].values()):       
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\torch\cuda\amp\grad_scaler.py", line 314, in <genexpr>
+    if not sum(v.item() for v in optimizer_state["found_inf_per_device"].values()):       
+               ^^^^^^^^
+KeyboardInterrupt
+^C
+(.venv) C:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1>c:/Users/samou/OneDrive/Documents/GitHub/Sentiment_analysis/Sentiment_analysis-1/.venv/Scripts/python.exe c:/Users/samou/OneDrive/Documents/GitHub/Sentiment_analysis/Sentiment_analysis-1/model.py
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Using device: cuda:0
+Epoch 0: 100%|████████████████████████| 4040/4040 [1:13:01<00:00,  1.08s/it, loss=0.0269]
+Epoch 1: 100%|████████████████████████| 4040/4040 [1:13:16<00:00,  1.09s/it, loss=0.0608]
+Epoch 2: 100%|███████████████████████| 4040/4040 [1:13:00<00:00,  1.08s/it, loss=0.00595]
+Epoch 3: 100%|████████████████████████| 4040/4040 [1:12:58<00:00,  1.08s/it, loss=0.0383]
+Epoch 4: 100%|██████████████████████| 4040/4040 [1:12:55<00:00,  1.08s/it, loss=0.000887]
+Epoch 5: 100%|██████████████████████| 4040/4040 [1:12:56<00:00,  1.08s/it, loss=0.000391]
+Epoch 6: 100%|████████████████████████| 4040/4040 [1:12:50<00:00,  1.08s/it, loss=0.0228]
+Epoch 7: 100%|██████████████████████| 4040/4040 [1:12:50<00:00,  1.08s/it, loss=0.000134]
+Epoch 8: 100%|███████████████████████| 4040/4040 [1:12:49<00:00,  1.08s/it, loss=8.03e-5]
+Epoch 9: 100%|███████████████████████| 4040/4040 [1:12:48<00:00,  1.08s/it, loss=6.91e-5]
+100%|████████████████████████████████████████████████| 1010/1010 [14:46<00:00,  1.14it/s]
+Classification Report:               precision    recall  f1-score   s
+
+    Negative     0.9811    0.9681    0.9745     10612
+     Neutral     0.7820    0.8674    0.8225      2233
+    Positive     0.9511    0.9215    0.9361      3314
+
+    accuracy                         0.9446     16159
+   macro avg     0.9047    0.9190    0.9110     16159
+weighted avg     0.9474    0.9446    0.9456     16159
+
+
+(.venv) C:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1>pip install streamlit
+Collecting streamlit
+  Downloading streamlit-1.28.2-py2.py3-none-any.whl.metadata (8.1 kB)
+Collecting altair<6,>=4.0 (from streamlit)
+  Downloading altair-5.1.2-py3-none-any.whl.metadata (8.6 kB)
+Collecting blinker<2,>=1.0.0 (from streamlit)
+  Downloading blinker-1.7.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting cachetools<6,>=4.0 (from streamlit)
+  Downloading cachetools-5.3.2-py3-none-any.whl.metadata (5.2 kB)
+Requirement already satisfied: click<9,>=7.0 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from streamlit) (8.1.7)
+Collecting importlib-metadata<7,>=1.4 (from streamlit)
+  Downloading importlib_metadata-6.8.0-py3-none-any.whl.metadata (5.1 kB)   
+Requirement already satisfied: numpy<2,>=1.19.3 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from streamlit) (1.26.2)
+Requirement already satisfied: packaging<24,>=16.8 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from streamlit) (23.2)
+Requirement already satisfied: pandas<3,>=1.3.0 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from streamlit) (2.1.3)
+Requirement already satisfied: pillow<11,>=7.1.0 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from streamlit) (10.1.0)
+Collecting protobuf<5,>=3.20 (from streamlit)
+  Downloading protobuf-4.25.1-cp310-abi3-win_amd64.whl.metadata (541 bytes) 
+Collecting pyarrow>=6.0 (from streamlit)
+  Downloading pyarrow-14.0.1-cp311-cp311-win_amd64.whl.metadata (3.1 kB)    
+Requirement already satisfied: python-dateutil<3,>=2.7.3 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from streamlit) (2.8.2)
+Requirement already satisfied: requests<3,>=2.27 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from streamlit) (2.31.0)
+Collecting rich<14,>=10.14.0 (from streamlit)
+  Downloading rich-13.7.0-py3-none-any.whl.metadata (18 kB)
+Collecting tenacity<9,>=8.1.0 (from streamlit)
+  Downloading tenacity-8.2.3-py3-none-any.whl.metadata (1.0 kB)
+Collecting toml<2,>=0.10.1 (from streamlit)
+  Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Requirement already satisfied: typing-extensions<5,>=4.3.0 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from streamlit) (4.8.0)
+Collecting tzlocal<6,>=1.1 (from streamlit)
+  Downloading tzlocal-5.2-py3-none-any.whl.metadata (7.8 kB)
+Collecting validators<1,>=0.2 (from streamlit)
+  Downloading validators-0.22.0-py3-none-any.whl.metadata (4.7 kB)
+Collecting gitpython!=3.1.19,<4,>=3.0.7 (from streamlit)
+  Downloading GitPython-3.1.40-py3-none-any.whl.metadata (12 kB)
+Collecting pydeck<1,>=0.8.0b4 (from streamlit)
+  Downloading pydeck-0.8.1b0-py2.py3-none-any.whl (4.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 76.0 MB/s eta 0:00:00
+Requirement already satisfied: tornado<7,>=6.0.3 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from streamlit) (6.3.3)
+Collecting watchdog>=2.1.5 (from streamlit)
+  Downloading watchdog-3.0.0-py3-none-win_amd64.whl (82 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 82.0/82.0 kB 4.5 MB/s eta 0:00:00
+Requirement already satisfied: jinja2 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from altair<6,>=4.0->streamlit) (3.1.2)
+Collecting jsonschema>=3.0 (from altair<6,>=4.0->streamlit)
+  Downloading jsonschema-4.20.0-py3-none-any.whl.metadata (8.1 kB)
+Collecting toolz (from altair<6,>=4.0->streamlit)
+  Downloading toolz-0.12.0-py3-none-any.whl (55 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.8/55.8 kB 2.8 MB/s eta 0:00:00
+Requirement already satisfied: colorama in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from click<9,>=7.0->streamlit) (0.4.6)
+Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.19,<4,>=3.0.7->streamlit)
+  Downloading gitdb-4.0.11-py3-none-any.whl.metadata (1.2 kB)
+Collecting zipp>=0.5 (from importlib-metadata<7,>=1.4->streamlit)
+  Downloading zipp-3.17.0-py3-none-any.whl.metadata (3.7 kB)
+Requirement already satisfied: pytz>=2020.1 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from pandas<3,>=1.3.0->streamlit) (2023.3.post1)
+Requirement already satisfied: tzdata>=2022.1 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from pandas<3,>=1.3.0->streamlit) (2023.3)
+Requirement already satisfied: six>=1.5 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from python-dateutil<3,>=2.7.3->streamlit) (1.16.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from requests<3,>=2.27->streamlit) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from requests<3,>=2.27->streamlit) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from requests<3,>=2.27->streamlit) (2.1.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from requests<3,>=2.27->streamlit) (2023.7.22)
+Collecting markdown-it-py>=2.2.0 (from rich<14,>=10.14.0->streamlit)
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)       
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from rich<14,>=10.14.0->streamlit) (2.16.1)
+Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit)
+  Downloading smmap-5.0.1-py3-none-any.whl.metadata (4.3 kB)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from jinja2->altair<6,>=4.0->streamlit) (2.1.3)
+Collecting attrs>=22.2.0 (from jsonschema>=3.0->altair<6,>=4.0->streamlit)
+  Downloading attrs-23.1.0-py3-none-any.whl (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 kB 3.2 MB/s eta 0:00:00
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=3.0->altair<6,>=4.0->streamlit)
+  Downloading jsonschema_specifications-2023.11.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=3.0->altair<6,>=4.0->streamlit)
+  Downloading referencing-0.31.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting rpds-py>=0.7.1 (from jsonschema>=3.0->altair<6,>=4.0->streamlit)
+  Downloading rpds_py-0.13.0-cp311-none-win_amd64.whl.metadata (3.8 kB)     
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich<14,>=10.14.0->streamlit)
+  Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading streamlit-1.28.2-py2.py3-none-any.whl (8.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.4/8.4 MB 59.7 MB/s eta 0:00:00
+Downloading altair-5.1.2-py3-none-any.whl (516 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 516.2/516.2 kB 31.6 MB/s eta 0:00:00
+Downloading blinker-1.7.0-py3-none-any.whl (13 kB)
+Downloading cachetools-5.3.2-py3-none-any.whl (9.3 kB)
+Downloading GitPython-3.1.40-py3-none-any.whl (190 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 190.6/190.6 kB 11.3 MB/s eta 0:00:00
+Downloading importlib_metadata-6.8.0-py3-none-any.whl (22 kB)
+Downloading protobuf-4.25.1-cp310-abi3-win_amd64.whl (413 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 413.4/413.4 kB 25.2 MB/s eta 0:00:00
+Downloading pyarrow-14.0.1-cp311-cp311-win_amd64.whl (24.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24.6/24.6 MB 59.5 MB/s eta 0:00:00
+Downloading rich-13.7.0-py3-none-any.whl (240 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 240.6/240.6 kB 15.4 MB/s eta 0:00:00
+Downloading tenacity-8.2.3-py3-none-any.whl (24 kB)
+Downloading tzlocal-5.2-py3-none-any.whl (17 kB)
+Downloading validators-0.22.0-py3-none-any.whl (26 kB)
+Downloading gitdb-4.0.11-py3-none-any.whl (62 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.7/62.7 kB ? eta 0:00:00      
+Downloading jsonschema-4.20.0-py3-none-any.whl (84 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 84.7/84.7 kB 4.7 MB/s eta 0:00:00
+Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 4.8 MB/s eta 0:00:00
+Downloading zipp-3.17.0-py3-none-any.whl (7.4 kB)
+Downloading jsonschema_specifications-2023.11.1-py3-none-any.whl (17 kB)
+Downloading referencing-0.31.0-py3-none-any.whl (25 kB)
+Downloading rpds_py-0.13.0-cp311-none-win_amd64.whl (188 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 188.7/188.7 kB 11.2 MB/s eta 0:00:00
+Downloading smmap-5.0.1-py3-none-any.whl (24 kB)
+Installing collected packages: zipp, watchdog, validators, tzlocal, toolz, toml, tenacity, smmap, rpds-py, pyarrow, protobuf, mdurl, cachetools, blinker, attrs, referencing, pydeck, markdown-it-py, importlib-metadata, gitdb, rich, jsonschema-specifications, gitpython, jsonschema, altair, streamlit      
+Successfully installed altair-5.1.2 attrs-23.1.0 blinker-1.7.0 cachetools-5.3.2 gitdb-4.0.11 gitpython-3.1.40 importlib-metadata-6.8.0 jsonschema-4.20.0 jsonschema-specifications-2023.11.1 markdown-it-py-3.0.0 mdurl-0.1.2 protobuf-4.25.1 pyarrow-14.0.1 pydeck-0.8.1b0 referencing-0.31.0 rich-13.7.0 rpds-py-0.13.0 smmap-5.0.1 streamlit-1.28.2 tenacity-8.2.3 toml-0.10.2 toolz-0.12.0 tzlocal-5.2 validators-0.22.0 watchdog-3.0.0 zipp-3.17.0
+
+(.venv) C:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1>c:/Users/samou/OneDrive/Documents/GitHub/Sentiment_analysis/Sentiment_analysis-1/.venv/Scripts/python.exe c:/Users/samou/OneDrive/Documents/GitHub/Sentiment_analysis/Sentiment_analysis-1/app.py
+2023-11-18 02:31:15.254 
+  Warning: to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run c:/Users/samou/OneDrive/Documents/GitHub/Sentiment_analysis/Sentiment_analysis-1/app.py [ARGUMENTS]
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+2023-11-18 02:31:16.953 `st.cache` is deprecated. Please use one of Streamlit's new caching commands,
+`st.cache_data` or `st.cache_resource`.
+
+More information [in our docs](https://docs.streamlit.io/library/advanced-features/caching).
+
+(.venv) C:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1>streamlit run app.py
+
+      Welcome to Streamlit!
+
+      If you’d like to receive helpful onboarding emails, news, offers, promotions,
+      and the occasional swag, please enter your email address below. Otherwise,
+      leave this field blank.
+
+      Email:  samoucheharoune@gmail.com
+
+  You can find our privacy policy at https://streamlit.io/privacy-policy    
+
+  Summary:
+  - This open source library collects usage statistics.
+  - We cannot see and do not store information contained inside Streamlit apps,
+    such as text, charts, images, etc.
+  - Telemetry data is stored in servers in the United States.
+  - If you'd like to opt out, add the following to %userprofile%/.streamlit/config.toml,
+    creating that file if necessary:
+
+    [browser]
+    gatherUsageStats = false
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.103:8501
+
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+2023-11-18 02:32:06.256 `st.cache` is deprecated. Please use one of Streamlit's new caching commands,
+`st.cache_data` or `st.cache_resource`.
+
+More information [in our docs](https://docs.streamlit.io/library/advanced-features/caching).
+  Stopping...
+
+(.venv) C:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1>streamlit run app.py
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.103:8501
+
+2023-11-18 02:33:52.226 Uncaught app exception
+Traceback (most recent call last):
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\app.py", line 4, in <module>
+    from transformers import BertTokenizer, BertForSequenceClassification   
+ImportError: cannot import name 'BertTokenizer' from 'transformers' (c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\transformers\__init__.py)
+2023-11-18 02:33:52.668 `st.experimental_singleton` is deprecated. Please use the new command `st.cache_resource` instead, which has the same behavior. More information [in our docs](https://docs.streamlit.io/library/advanced-features/caching).
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+  Stopping...
+
+(.venv) C:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1>ImportError: cannot import name 'BertTokenizer' from 'transformers' (c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\transformers\__init__.py)
+
+(.venv) C:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1>pip install --upgrade transformers
+Requirement already satisfied: transformers in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (4.35.2)
+Requirement already satisfied: filelock in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from transformers) (3.13.1)
+Requirement already satisfied: huggingface-hub<1.0,>=0.16.4 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from transformers) (0.19.3)
+Requirement already satisfied: numpy>=1.17 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from transformers) (1.26.2)
+Requirement already satisfied: packaging>=20.0 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from transformers) (23.2)
+Requirement already satisfied: pyyaml>=5.1 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from transformers) (6.0.1)
+Requirement already satisfied: regex!=2019.12.17 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from transformers) (2023.10.3)
+Requirement already satisfied: requests in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from transformers) (2.31.0)
+Requirement already satisfied: tokenizers<0.19,>=0.14 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from transformers) (0.15.0)
+Requirement already satisfied: safetensors>=0.3.1 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from transformers) (0.4.0)
+Requirement already satisfied: tqdm>=4.27 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from transformers) (4.66.1)
+Requirement already satisfied: fsspec>=2023.5.0 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from huggingface-hub<1.0,>=0.16.4->transformers) (2023.10.0)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from huggingface-hub<1.0,>=0.16.4->transformers) (4.8.0)     
+Requirement already satisfied: colorama in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from tqdm>=4.27->transformers) (0.4.6)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from requests->transformers) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from requests->transformers) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from requests->transformers) (2.1.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\samou\onedrive\documents\github\sentiment_analysis\sentiment_analysis-1\.venv\lib\site-packages (from requests->transformers) (2023.7.22)
+
+(.venv) C:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1>streamlit run app.py
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.103:8501
+
+2023-11-18 02:36:35.665 `st.experimental_singleton` is deprecated. Please use the new command `st.cache_resource` instead, which has the same behavior. More information [in our docs](https://docs.streamlit.io/library/advanced-features/caching).
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+2023-11-18 02:36:46.290 `st.experimental_singleton` is deprecated. Please use the new command `st.cache_resource` instead, which has the same behavior. More information [in our docs](https://docs.streamlit.io/library/advanced-features/caching).
+2023-11-18 02:36:56.304 `st.experimental_singleton` is deprecated. Please use the new command `st.cache_resource` instead, which has the same behavior. More information [in our docs](https://docs.streamlit.io/library/advanced-features/caching).
+  Stopping...
+
+(.venv) C:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1>streamlit run app.py
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.103:8501
+
+2023-11-18 02:37:24.320 Uncaught app exception
+Traceback (most recent call last):
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\app.py", line 4, in <module>
+    from transformers import BertTokenizer, BertForSequenceClassification   
+ImportError: cannot import name 'BertTokenizer' from 'transformers' (c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\transformers\__init__.py)
+2023-11-18 02:37:24.323 Uncaught app exception
+Traceback (most recent call last):
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\app.py", line 4, in <module>
+    from transformers import BertTokenizer, BertForSequenceClassification   
+ImportError: cannot import name 'BertTokenizer' from 'transformers' (c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\transformers\__init__.py)
+2023-11-18 02:37:24.324 Uncaught app exception
+Traceback (most recent call last):
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\app.py", line 4, in <module>
+    from transformers import BertTokenizer, BertForSequenceClassification   
+ImportError: cannot import name 'BertTokenizer' from 'transformers' (c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\transformers\__init__.py)
+2023-11-18 02:37:25.012 Uncaught app exception
+Traceback (most recent call last):
+  File "c:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "C:\Users\samou\OneDrive\Documents\GitHub\Sentiment_analysis\Sentiment_analysis-1\app.py", line 10, in <module>
+    @st.cache_resource(allow_output_mutation=True)
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: CacheResourceAPI.__call__() got an unexpected keyword argument 'allow_output_mutation'
